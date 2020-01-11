@@ -1,0 +1,1 @@
+export const bodyTitle="Times New Roman"

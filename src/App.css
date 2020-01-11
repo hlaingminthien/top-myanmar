@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  font-family: Pyidaungsu !important;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.bg-dark{
+  background-color: black !important;
+}
+
+.uni{
+  font-family: Pyidaungsu !important;
+}
+
+.for-icon{
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.f-20{
+  font-size: 20px;
+}
+
+.list-icon{
+  color: #17a2b8;
+  margin-right: 10px;
+}
