@@ -13,7 +13,7 @@ const Footer = props => {
       {/*  */}
       <div
         className="row border-top pt-3"
-        style={{ color: Colors.textwhite, opacity: 0.5, width: '100%' }}
+        style={{ color: Colors.textwhite, opacity: 0.5, width: '101%' }}
       >
         <div className="container-fluid py-3" style={{ background: "#9a9a9a" }}>
           <div className="d-flex flex-row flex-wrap justify-content-between text-light">
