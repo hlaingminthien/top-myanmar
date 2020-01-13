@@ -5,7 +5,7 @@ import Logo from "../../assets/icons/logo.png";
 import * as RoutePath from "../../config/route.config";
 import { fsc } from "../../helper/fontControlHelper";
 import MyLink from "../../tools/myLink";
-import * as Colors from "../../config/color.config"; 
+import * as Colors from "../../config/color.config";
 import topmyanmar from '../../assets/image/carosel/topmyanmar.png'
 
 const Navbar = props => {
@@ -29,38 +29,38 @@ const Navbar = props => {
       ) {
         MyNav.style.background = "#866a15";
         MyNav.style.position = "fixed";
-        MyNav.style.top = 0;        
-        navTitle.style.visibility="hidden"
+        MyNav.style.top = 0;
+        navTitle.style.visibility = "hidden"
       } else {
         MyNav.style.background = "black";
         MyNav.style.position = "relative";
-        navTitle.style.visibility="visible"
+        navTitle.style.visibility = "visible"
       }
     };
   });
 
   return (
-    <div className="sticky-top position-fixed w-100">      
-        <div
-          className="d-flex flex-row flex-wrap justify-content-between px-3 border-bottom py-2 text-light"
-          style={{
-            fontSize: fsc(media, 13),
-            borderBottom: "1px solid light",
-            background: "black",
-            opacity: '0.7'
-          }}
-          id="NavTitle"
-        >
-          <span className="flex-column">
-            <i className="fa fa-phone pr-2" />
-            <span className="border-right pr-2">
+    <div className="sticky-top position-fixed w-100">
+      <div
+        className="d-flex flex-row flex-wrap justify-content-between px-3 border-bottom py-2 text-light"
+        style={{
+          fontSize: fsc(media, 13),
+          borderBottom: "1px solid light",
+          background: "black",
+          opacity: '0.7'
+        }}
+        id="NavTitle"
+      >
+        <span className="flex-column">
+          <i className="fa fa-phone pr-2" />
+          <span className="border-right pr-2">
             02-5153502, 02-5153838
             </span>
 
-            <i className="fa fa-envelope-o px-2" />
-            <span>topmyanmar.mtn@gmail.com</span>
-          </span>
-        </div>
+          <i className="fa fa-envelope-o px-2" />
+          <span>topmyanmar.mtn@gmail.com</span>
+        </span>
+      </div>
       <div
         id="NavbarContainer"
         className="d-flex flex-row w-100 justify-content-between py-2 px-3"
@@ -72,22 +72,28 @@ const Navbar = props => {
         }}
       >
         <div style={{ width: 80 }}>
-          <img src={topmyanmar} alt="Logo" style={{width: '60px'}} />
+          <img src={topmyanmar} alt="Logo" style={{ width: '60px' }} />
         </div>
-          <div className="my-auto" style={{ fontSize: fsc(media, 15) }}>
-            <MyLink
-              className="pr-4"
-              id={"MenuLink"}
-              to={`/${RoutePath.topMyanmar}`}
-              text={"HOME"}
-            />
-            <MyLink
-              className="pr-4"
-              id={"MenuLink1"}
-              to={`/${RoutePath.kiyoMyanmar}`}
-              text={"KIYO MYANMAR"}
-            />
-          </div>
+        <div className="my-auto" style={{ fontSize: fsc(media, 15) }}>
+          <MyLink
+            className="pr-4"
+            id={"MenuLink"}
+            to={`/${RoutePath.topMyanmar}`}
+            text={"HOME"}
+          />
+          <MyLink
+            className="pr-4"
+            id={"MenuLink1"}
+            to={`/${RoutePath.kiyoMyanmar}`}
+            text={"KIYO MYANMAR"}
+          />
+          <MyLink
+            className="pr-4"
+            id={"MenuLink1"}
+            to={'contactus'}
+            text={"CONTACT US"}
+          />
+        </div>
       </div>
     </div>
   );
