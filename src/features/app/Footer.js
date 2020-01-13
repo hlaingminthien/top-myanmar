@@ -33,7 +33,7 @@ const Footer = props => {
               {/* <i className="fa fa-envelope fa-2x px-4" /> */}
               <div className="col-lg-12">
                 <h3>Don't know where to start? Let's get in touch!</h3> <br></br>
-                <form action="topmyanmar.mtn@gmail.com" method="post">
+                <form action="http://topmyanmar.mtn@gmail.com" method="post">
                   <div className="row">
                     <div className="col-sm-6">
                       <input
