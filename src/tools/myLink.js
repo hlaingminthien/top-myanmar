@@ -8,7 +8,8 @@ const MyLink = props => {
   const defaultStyle = {
     textDecoration: "none",
     color: Colors.textwhite,
-    width: "100%"
+    width: "100%",
+    fontWeight: 'bold'
   };
   const userStyle = style === undefined ? {} : style;
   return (

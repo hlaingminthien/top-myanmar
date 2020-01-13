@@ -27,13 +27,15 @@ const Navbar = props => {
         document.body.scrollTop > 30 ||
         document.documentElement.scrollTop > 30
       ) {
-        MyNav.style.background = "#866a15";
+        MyNav.style.background = 'rgba(0, 0, 0, 0.3)';
         MyNav.style.position = "fixed";
         MyNav.style.top = 0;
+        // MyNav.style.opacity = 0.2;
         navTitle.style.visibility = "hidden"
       } else {
-        MyNav.style.background = "black";
+        MyNav.style.background = 'rgba(0, 0, 0, 0.3)';
         MyNav.style.position = "relative";
+        // MyNav.style.opacity = 0.2;
         navTitle.style.visibility = "visible"
       }
     };
@@ -66,9 +68,9 @@ const Navbar = props => {
         className="d-flex flex-row w-100 justify-content-between py-2 px-3"
         style={{
           zIndex: 2,
-          // opacity: MenuClick ? 'none' : 0.9,
+          // opacity: MenuClick ? 'none' : 0.3,
           transition: "1s",
-          background: MenuClick ? 'black' : ''
+          background: 'rgba(0, 0, 0, 0.3)'
         }}
       >
         <div style={{ width: 80 }}>
