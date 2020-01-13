@@ -9,17 +9,15 @@ import TopProduct from '../components/TopProduct'
 import TopMap from '../components/TopMap'
 
 const TopContainer = props => {
-    const {media} = props;
+    const { media } = props;
     return (
         <div className="container-fluid p-0">
-            <TopCarousel  media={media} />
+            <TopCarousel media={media} />
             <div className="container">
-                <TopInfo media={media}/>
+                <TopInfo media={media} />
                 <TopMotto />
                 <TopProduct />
-                {/* <TopContact /> */}
             </div>
-            {/* <TopAddress /> */}
             <TopMap />
         </div>
     )

@@ -1,7 +1,7 @@
 import React from 'react'
 import { withMedia } from 'react-media-query-hoc'
 import { fsc } from '../../../helper/fontControlHelper'
-import Img1 from '../../../assets/image/carosel/industry.png'
+import Img1 from "../../../assets/image/carosel/top.png"
 
 const data = [
     { item: 'ဆိုဒ်စုံ၊ ဂရမ်စုံ ပီနံအိတ်အမျိုးမျိုး' },
