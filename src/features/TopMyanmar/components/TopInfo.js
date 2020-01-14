@@ -37,7 +37,7 @@ const TopInfo = props => {
                                     data.map((v, k) =>
                                         <div key={k} className="pb-3" style={{ clear: "both" }}>
                                             <div className="pb-5" style={{ fontSize: fsc(media, 15), fontWeight: "bold", float: "left" }}>
-                                                <i class="fa fa-gg" style={{ color: '#0288D1', paddingRight: "10px" }} aria-hidden="true"></i>
+                                                <i className="fa fa-gg" style={{ color: '#0288D1', paddingRight: "10px" }} aria-hidden="true"></i>
                                             </div>
                                             <div style={{ wordkeep: 'keep-all' }}>{v.item}</div>
                                         </div>)
@@ -48,7 +48,7 @@ const TopInfo = props => {
                                     data1.map((v, k) =>
                                         <div key={k} className="pb-3" style={{ clear: "both" }}>
                                             <div className="pb-5" style={{ fontSize: fsc(media, 15), fontWeight: "bold", float: 'left' }}>
-                                            <i class="fa fa-gg" style={{ color: '#0288D1', paddingRight: "10px" }} aria-hidden="true"></i>
+                                            <i className="fa fa-gg" style={{ color: '#0288D1', paddingRight: "10px" }} aria-hidden="true"></i>
                                             </div>
                                             <div style={{ wordBreak: 'keep-all' }}>
                                                 {v.item}

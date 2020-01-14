@@ -43,3 +43,14 @@
   color: #17a2b8;
   margin-right: 10px;
 }
+
+.email-success{
+  height: 190px;
+  width: 100%;
+  padding: 81px;
+  background: #909090;
+  border-radius: 7px;
+  margin: auto;
+  color: white;
+  border: 2px double #eaeae5;
+}
