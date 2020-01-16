@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { withMedia } from "react-media-query-hoc";
 
-import Logo from "../../assets/icons/logo.png";
 import * as RoutePath from "../../config/route.config";
 import { fsc } from "../../helper/fontControlHelper";
 import MyLink from "../../tools/myLink";

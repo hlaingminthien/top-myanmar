@@ -15,20 +15,18 @@ const TopMap = () => {
 
     return (
         // Important! Always set the container height explicitly
-        <div style={{height: '50vh', overflow: 'hidden'}}>
-        <div style={{ height: '125vh', width: '100%' }}>
+        <div style={{ height: '50vh', width: '100%' }}>
             <GoogleMapReact
                 bootstrapURLKeys={{ key: "AIzaSyAcWK8WHabUh0BMDZuIIPo0qfWXWarBzoo" }}
                 defaultCenter={pro.latlon}
                 defaultZoom={pro.zoom}
             >
                 <AnyReactComponent
-                    lat={21.9426}
-                    lng={96.1078}
+                    lat={21.887880}
+                    lng={96.100609}
                     text=""
                 />
             </GoogleMapReact>
-        </div>
         </div>
     );
 }
